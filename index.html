@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+    	<!-- Metas -->
+        <meta charset="utf-8">
+
+        <!-- Title  -->
+        <title>Print Receipt/Example</title>
+      
+        <!-- Core Style Css -->
+        <link rel="stylesheet" href="report.css" />
+    </head>
+    <body>
+      <h1>Print Receipt/Example</h1>
+      <p>Please click the Print button to start print your Receipt !</p>
+      <button onclick="print_my_receipt()">Print</button>
+      <script>
+      // the function use to open a popup window and print then close it // 
+       function print_my_receipt() {
+         
+         // open the page as popup //
+         var page = "r_sales.html";
+         var myWindow = window.open(page, "_blank", "scrollbars=yes,width=650,height=500,top=300");
+         
+         // focus and (start print : when page is loading ) //
+         myWindow.focus();
+         
+         // set timer as one second to make sure that data are loading and printing before close //
+         // Note : if the window close before printing ==> please increase timer value //
+         setTimeout(function() {
+           myWindow.close();
+         }, 1000);
+       }
+      </script>
+   </body>
+</html>

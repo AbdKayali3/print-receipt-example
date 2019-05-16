@@ -1,0 +1,115 @@
+* {
+/*  font-family: Geneva, 'Helvetica', 'sans-seri';*/
+  font-family: 'Simplified Arabic Fixed', 'sans-seri';
+  --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  font-family: monospace,sans-serif;
+  direction: rtl;
+  font-size: 12px
+}
+.text-center {
+  text-align: center;
+}
+.left {
+  text-align: right;
+}
+.small {
+  font-size: 11px;
+}
+.focus {
+  position: relative;
+  margin: 0;
+  padding: 5px;
+}.focus .left {
+  position: absolute;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+.bordred {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #777;
+  border-radius: 20px;
+}
+h1 {
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 22px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+h3 {
+  font-size: 18px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+h4 {
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+h5 {
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+p {
+  font-size: 12px;
+}
+table {
+  width: 100%;
+  text-align: right;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  border-spacing: 0px;
+}
+table thead,
+table tfoot{
+  font-size: 11px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+table thead th {
+  font-size: 11px;
+  border-bottom: 1px solid #777;
+  border-bottom: 1px solid #333;
+  padding: 2px;
+}
+table tfoot th {
+  font-size: 11px;
+/*  border-bottom: 1px solid #333;*/
+  border-top: 1px solid #777;
+  padding: 2px;
+}
+td {
+  font-size: 10px;
+  padding: 2px;
+}
+td.big {
+  width: 60%;
+}
+.img {
+  margin: 20px;
+/*  width: 100%;*/
+  box-sizing: border-box;
+  text-align: center;
+}
+.img img {
+  width: 80%;
+}
+.text-left {
+/*
+  text-align: left;
+  padding-left: 10px;
+*/
+}
+.bordred div {
+  width: 45%;
+  display: inline-block;
+  
+}
