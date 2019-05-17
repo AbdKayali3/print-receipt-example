@@ -1,5 +1,5 @@
 # print-receipt-example
-Sample example to print receipt in the good way
+Sample example to print receipt on web (php) in the good way
 
 # How to use
 1 - download the files <br />
