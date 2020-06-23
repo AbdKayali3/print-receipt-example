@@ -10,6 +10,6 @@ Sample example to print receipt on web in the good way
 6 - Enjoy :) ..<br />
 
 #Test
-tetsed with html,php,laravel
-worked fine on chrome, frefox, opera, and safari
-tested on 57mm roll and 80mm roll printers
+tetsed with html,php,laravel <br />
+worked fine on chrome, frefox, opera, and safari <br />
+tested on 57mm roll and 80mm roll printers <br />
