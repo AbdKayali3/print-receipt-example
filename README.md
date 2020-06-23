@@ -9,7 +9,7 @@ Sample example to print receipt on web in the good way
 5 - costumize the r_sales.html page as you like<br />
 6 - Enjoy :) ..<br />
 
-#Test
+# Test
 tetsed with html,php,laravel <br />
 worked fine on chrome, frefox, opera, and safari <br />
 tested on 57mm roll and 80mm roll printers <br />
