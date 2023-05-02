@@ -1,5 +1,5 @@
 # print-receipt-example
-Sample example to print receipt on web with nice look
+simple example to print receipt on the web with a nice look
 
 # How to use
 1 - download the files <br />
